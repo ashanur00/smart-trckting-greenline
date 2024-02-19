@@ -78,7 +78,7 @@ function setInnerText(id, value) {
 }
 function setBackgroundColorById(elementId) {
   const element = document.getElementById(elementId);
-  element.classList.add("bg-green-600");
+  element.classList.add("bg-[#1DD100]");
 }
 
 document.getElementById("inputField").addEventListener("keyup", function () {

@@ -44,7 +44,7 @@
 
       </div>
     </div>
-    <div class="hero md:h-[500px]" style="background-image: url(images/banner.png);">
+    <div class="hero md:h-[500px] rounded-2xl" style="background-image: url(images/banner.png);">
       <div class=""></div>
       <div class="hero-content text-center text-neutral-content">
         <div class="max-xl:">
@@ -60,14 +60,14 @@
     </div>
 
     <!--   stat part here -->
-    <div class="flex  md:-mt-16 ">
-      <div class="stats shadow mx-auto gap-6 py-8">
+    <div class="flex  md:-mt-16">
+      <div class="stats shadow mx-auto gap-6 py-8 border-b-2 border-[#1DD100]">
         <div class="flex gap-3 items-center">
           <div class="">
             <img src="images/people.png" alt="">
           </div>
           <div>
-            <div class="stat-value text-primary font-raleway">500K+</div>
+            <div class="stat-value text-black font-raleway">500K+</div>
             <div class="stat-desc font-raleway">Registered users</div>
           </div>
         </div>
@@ -76,7 +76,7 @@
             <img src="images/ticket-cupon.png" alt="">
           </div>
           <div>
-            <div class="stat-value text-primary font-raleway">1.7 lacks</div>
+            <div class="stat-value text-black font-raleway">1.7 lacks</div>
             <div class="stat-desc font-raleway">Tickets sold</div>
           </div>
         </div>
@@ -86,7 +86,7 @@
             <img src="images/bus-icon.png" alt="">
           </div>
           <div>
-            <div class="stat-value text-primary font-raleway">80K+</div>
+            <div class="stat-value text-black font-raleway">80K+</div>
             <div class="stat-desc font-raleway">Rental partners</div>
           </div>
         </div>
@@ -97,22 +97,22 @@
       <p class="text-5xl font-bold text-black text-center my-7 font-raleway">Best offers for you</p>
       <div class="md:flex text-black gap-5">
         <div class="md:w-1/2 flex gap-6 p-5 md:p-7 rounded-xl bg-[#FFBF0F]">
-          <p class="text-5xl font-bold font-raleway">15% OFF <br>
-            <span class="text-lg font-bold font-raleway">on your next purchase</span><br>
-            <span class="text-xl font-raleway"> use by January 2024</span>
+          <p class="text-5xl font-bold font-raleway text-[#030712CC]">15% OFF <br>
+            <span class="text-3xl font-bold font-raleway text-[#030712CC]">on your next purchase</span><br>
+            <span class="text-xl font-raleway text-[#03071280]"> use by January 2024</span>
           </p>
           <p class="text-5xl font-bold border-l-4 p-3 font-raleway">NEW15 <br>
-            <span class="text-xl font-raleway">Coupon Code</span>
+            <span class="text-xl font-raleway text-[#030712CC]">Coupon Code</span>
           </p>
         </div>
         <div class="md:w-1/2">
           <div class=" flex gap-6 p-5 md:p-7 rounded-xl bg-[#F78C9C]">
-            <p class="text-5xl font-bold font-raleway">20% OFF <br>
-              <span class="text-lg font-bold font-raleway">on your next purchase</span><br>
-              <span class="text-xl font-raleway"> use by January 2024</span>
+            <p class="text-5xl font-bold font-raleway text-[#030712CC]">20% OFF <br>
+              <span class="text-lg font-bold font-raleway text-[#030712CC]">on your next purchase</span><br>
+              <span class="text-xl font-raleway text-[#03071280]"> use by January 2024</span>
             </p>
             <p class="text-5xl font-bold border-l-4 p-3 font-raleway">Couple 20 <br>
-              <span class="text-xl font-raleway">Coupon Code</span>
+              <span class="text-xl font-raleway text-[#030712CC]">Coupon Code</span>
             </p>
           </div>
         </div>
@@ -123,7 +123,7 @@
   </header>
   <!-- header part end -->
 
-  <main class="border-t-2 border-[#1DD100] bg-[#F7F8F8] rounded-t-3xl pt-24">
+  <main class="border-t-2 border-[#1DD100] bg-[#F7F8F8] rounded-t-3xl pt-24 pb-6">
     <!-- Buy section -->
     <section class="m-32">
       <h4 class="text-5xl font-bold text-center mt-5 font-raleway">GreenLine Paribahan</h4>
@@ -192,9 +192,9 @@
           </div>
           <hr>
           <div class="flex justify-between mt-4 mb-4">
-            <p class="flex gap-3"><img src="images/seat-gray.png" alt=""> Available</p>
+            <p class="flex gap-3 font-inter font-medium text-[#03071280]"><img src="images/seat-gray.png" alt=""> Available</p>
             <p class="flex gap-3"><img src="images/seat-green-filled.png" alt=""> <span
-                class="text-lime-500 font-bold">Selected</span></p>
+                class="text-[#1DD100] font-bold">Selected</span></p>
           </div>
           <hr>
           <!-- seats demo here  -->
@@ -271,7 +271,7 @@
             <!-- head -->
             <thead>
               <tr>
-                <th>Seat <span id="book-seat" class="bg-[#1DD100] p-2 text-white">0</span></th>
+                <th>Seat <span id="book-seat" class="bg-[#1DD100] p-2 text-white rounded-full">0</span></th>
                 <th>Class</th>
                 <th>Price</th>
               </tr>
@@ -291,7 +291,7 @@
           <div class="flex items-center border border-gray-300 rounded-md overflow-hidden">
             <input id="coupon-input" type="text" class="py-2 px-4 w-full focus:outline-none"
               placeholder="Have any coupon ?">
-            <button id="coupon-btn" class="bg-[#1DD100] text-white px-4 py-2">Apply</button>
+            <button id="coupon-btn" class="bg-[#1DD100] text-white px-4 py-2 rounded-3xl">Apply</button>
           </div>
           <!-- grand total  -->
           <p class="text-xl font-bold my-7">Grand Total <span id="grand-total" class="ms-12">00</span></p>
@@ -299,34 +299,34 @@
           <div class="mb-4">
             <label for="passengerName" class="block text-gray-700 font-medium">Passenger Name</label>
             <input type="text" id="passengerName" name="passengerName"
-              class="mt-1 px-4 py-2 w-full border border-gray-300 rounded-md focus:outline-none focus:border-blue-500">
+              class="mt-1 px-4 py-2 w-full border border-gray-300 rounded-md focus:outline-none focus:border-blue-500" placeholder="Enter Your Name">
           </div>
           <div class="mb-4">
             <label for="phoneNumber" class="block text-gray-700 font-medium">Phone Number</label>
             <input type="tel" id="inputField" name="phoneNumber"
-              class="mt-1 px-4 py-2 w-full border border-gray-300 rounded-md focus:outline-none focus:border-blue-500">
+              class="mt-1 px-4 py-2 w-full border border-gray-300 rounded-md focus:outline-none focus:border-blue-500" placeholder="Enter Your Number">
           </div>
           <div class="mb-4">
             <label for="email" class="block text-gray-700 font-medium">Email Address</label>
             <input type="email" id="email" name="email"
-              class="mt-1 px-4 py-2 w-full border border-gray-300 rounded-md focus:outline-none focus:border-blue-500">
+              class="mt-1 px-4 py-2 w-full border border-gray-300 rounded-md focus:outline-none focus:border-blue-500" placeholder="Enter Your Email">
           </div>
 
           <button onclick="my_modal_5.showModal()" id="enableButton" type="submit"
-            class=" px-4 py-2 rounded-md bg-[#529b47] text-white w-full" disabled>Next</button>
+            class=" px-4 py-2 rounded-md bg-[#1DD100] text-white w-full" disabled>Next</button>
           <!-- Open the modal using ID.showModal() method -->
           <!-- <button id="enableButton" class="btn" onclick="my_modal_5.showModal()" disabled            >open modal</button> -->
           <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
             <div class="modal-box text-center">
               <img class="flex mx-auto" src="images/success.png" alt="">
-              <h3 class="font-bold text-lg text-green-600">Success</h3>
+              <h3 class="font-bold text-lg text-[#1DD100]">Success</h3>
               <p class="py-4">Thank you for booking our Bus Seats. We are working hard to the best service and deals for
                 yo</p>
               <p>Shortly you a confirm in your mail</p>
               <div class="modal-action">
                 <form method="dialog" class="flex mx-auto">
                   <!-- if there is a button in form, it will close the modal -->
-                  <button class="btn bg-lime-600">Continue</button>
+                  <button class="btn bg-[#1DD100]">Continue</button>
                 </form>
               </div>
             </div>
@@ -341,8 +341,7 @@
   <footer class="footer p-10 bg-neutral text-neutral-content">
     <aside>
 
-      <p class="text-3xl font-bold">P-Ticket.
-      <p>
+      <p class="text-3xl font-bold font-ral">GreenLine Paribahan<p>
       <p> P-Ticket is a digital platform to make your daily commuting better.</p>
     </aside>
     <nav>
